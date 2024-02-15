@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Three.js Hexagon Example</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden; /* Sayfanın sınırlarını aşan öğelerin gizlenmesini sağlar */
+        }
+        canvas {
+            display: block;
+        }
+        #gui-container {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            z-index: 9999; /* GUI'nin diğer öğelerin önünde olmasını sağlar */
+        }
+        #threejs-container {
+            width: 100vw;
+            height: 100vh;
+            background-color: #333333; /* Sahne arka plan rengi */
+        }
+    </style>
+  <script type="module" crossorigin src="/assignment_2/assets/index-00a5bab9.js"></script>
+  <link rel="stylesheet" href="/assignment_2/assets/index-28c9d6b9.css">
+</head>
+<body>
+    <div id="gui-container"></div>
+    <div id="threejs-container"></div>
+
+    
+</body>
+</html>
